@@ -1,0 +1,22 @@
+{
+  "name": "xmlrpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "prisma": "^6.18.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.18.0",
+    "davexmlrpc": "^0.4.26"
+  }
+}
